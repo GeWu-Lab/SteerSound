@@ -1,0 +1,45 @@
+{
+  "source": "Current manuscript, Figure 7 and data-construction appendices",
+  "pools": [
+    {"name": "Class-labeled audio", "count": 635019},
+    {"name": "Fine-captioned audio", "count": 380165}
+  ],
+  "selectiveTasks": ["Replace", "Remove", "Pitch", "Volume"],
+  "example": {
+    "instruction": "Increase the pitch of dog barking.",
+    "target": "Dog barking",
+    "nonTarget": "Road noise"
+  },
+  "settings": [
+    {
+      "id": "complex",
+      "name": "Complex setting",
+      "purpose": "Editing in richer sound scenes",
+      "training": 600000,
+      "trainingDisplay": "~600k",
+      "construction": "Nominal · online",
+      "validation": 6000,
+      "test": 6000,
+      "sourceCount": "1–4 sources",
+      "layout": "May overlap",
+      "composition": "Diverse source counts and overlapping sounds.",
+      "distribution": [16.8, 62.1, 15.5, 5.5],
+      "referenceImageIndex": 0
+    },
+    {
+      "id": "selective",
+      "name": "Selective setting",
+      "purpose": "Isolating source-selection behavior",
+      "training": 61440,
+      "trainingDisplay": "61k",
+      "construction": "Fixed",
+      "validation": 6000,
+      "test": 6000,
+      "sourceCount": "2 sources",
+      "layout": "No temporal overlap",
+      "composition": "One target and one non-target, separated in time.",
+      "distribution": [0, 100, 0, 0],
+      "referenceImageIndex": 2
+    }
+  ]
+}

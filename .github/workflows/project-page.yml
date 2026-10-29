@@ -1,0 +1,35 @@
+name: Deploy SteerSound project page
+
+on:
+  push:
+    branches: [gh-pages]
+    paths: ["website/**", ".github/workflows/project-page.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: steersound-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: website
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

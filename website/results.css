@@ -1,0 +1,110 @@
+/* Results follow the two research questions: capability, then STEER effectiveness. */
+.results-block{scroll-margin-top:95px}
+.results-block-heading{display:flex;align-items:flex-start;gap:20px;margin-bottom:25px}
+.result-part{display:grid;place-items:center;width:39px;height:39px;flex-shrink:0;border:1px solid #dcccE8;border-radius:10px;color:var(--purple);background:#f3edf8;font-size:12px;font-weight:800;line-height:1}
+.results-block-heading>div:not(.capability-size){flex:1;min-width:0}
+.results-block-heading .small-label{font-size:9px;letter-spacing:1.5px;color:var(--purple);margin-bottom:9px}
+.results-block-heading h3{font-size:27px;letter-spacing:-.8px}
+.results-block-heading p:last-child{font-size:13px;color:var(--muted);line-height:1.9;margin-top:11px;max-width:730px}
+.capability-size{text-align:right;padding-top:20px;flex-shrink:0}
+.capability-size strong{display:block;color:var(--teal);font-size:27px;line-height:1.2;letter-spacing:-1px}
+.capability-size span{font-size:10px;color:var(--muted)}
+.capability-block{padding-bottom:48px;margin-bottom:48px;border-bottom:1px solid #ddd2e8}
+.capability-block .table-wrap{margin-top:0}
+.effectiveness-block>.results-block-heading{margin-bottom:24px}
+.effectiveness-switch{margin-top:0;margin-bottom:25px;padding-left:59px}
+.effect-finding{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-bottom:25px}
+.effect-finding h4{font-size:18px;letter-spacing:-.4px;margin-bottom:8px}
+.effect-finding p{font-size:12px;color:var(--muted);line-height:1.8}
+.effect-badge{color:var(--teal);font-size:28px;font-weight:800;letter-spacing:-1px;line-height:1.2;flex-shrink:0;text-align:right}
+.effect-badge>span{display:block;color:#6f8981;font-size:9px;letter-spacing:0;font-weight:600;line-height:1.6;margin-top:5px}
+.backbone-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.backbone-card{background:white;border:1px solid #e3dbeb;border-radius:9px;padding:22px 18px 19px;min-width:0}
+.backbone-heading{display:flex;align-items:center;justify-content:space-between;gap:9px;margin-bottom:19px}
+.backbone-heading h5{margin:0;font-size:15px;letter-spacing:-.4px;font-weight:800;line-height:1.4}
+.backbone-heading>span{font-size:9px;color:#8d789c;background:#f3eef8;border-radius:4px;line-height:1.5;padding:3px 6px;white-space:nowrap}
+.stage-comparison{table-layout:fixed;border-collapse:separate;border-spacing:0 7px;white-space:normal;margin-top:-7px}
+.stage-comparison thead{background:none}
+.stage-comparison thead th{border:0;padding:0 7px 4px;font-size:10px;font-weight:600;line-height:1.5;color:var(--muted);vertical-align:bottom}
+.stage-comparison thead th:first-child{width:48%}
+.stage-comparison thead th span{display:block;font-size:8px;color:#92839e}
+.stage-comparison tbody th,.stage-comparison tbody td{border:0;padding:13px 7px;background:#f4f4f6;vertical-align:middle}
+.stage-comparison tbody th{border-radius:6px 0 0 6px;font-size:11px;line-height:1.4;font-weight:650}
+.stage-comparison tbody td:last-child{border-radius:0 6px 6px 0}
+.stage-comparison tbody td{font-size:19px;font-weight:750;letter-spacing:-.5px;color:var(--ink);white-space:nowrap}
+.stage-comparison tbody th>span:last-child{display:inline-block;vertical-align:middle;max-width:calc(100% - 28px)}
+.stage-comparison tbody th strong{display:block;font-weight:750}
+.stage-comparison tbody th small{display:block;font-size:8px;color:var(--muted);margin-top:3px;font-weight:500;line-height:1.5}
+.stage-checkpoint{display:inline-grid;place-items:center;width:19px;height:19px;border:1px solid #c9c6ce;border-radius:50%;margin-right:5px;vertical-align:middle;font-size:9px;color:#776f80;line-height:1}
+.stage-comparison .stage-emphasis th,.stage-comparison .stage-emphasis td{background:#faf7fd}
+.stage-comparison .stage-emphasis td{color:#8d72a5;font-weight:650}
+.stage-comparison .stage-emphasis .stage-checkpoint{border-color:#d3c4e0;color:#8d72a5}
+.stage-comparison .stage-full th,.stage-comparison .stage-full td{background:#eee5f7;color:var(--purple)}
+.stage-comparison .stage-full .stage-checkpoint{background:var(--purple);border-color:var(--purple);color:white}
+.stage-comparison .stage-full small{color:#886b9f}
+.stage-outcome{border-top:1px solid #ede7f2;margin-top:15px;padding-top:17px;display:grid;grid-template-columns:1fr auto;gap:0 12px;align-items:center}
+.stage-outcome>span{font-size:10px;color:var(--muted)}
+.stage-outcome strong{font-size:25px;font-weight:800;letter-spacing:-1px;color:var(--teal);line-height:1.3}
+.stage-outcome p{grid-column:2;font-size:9px;color:var(--muted);line-height:1.5;text-align:right}
+.gain-stage{padding:15px 13px;border:1px solid #eee7f4;border-radius:7px;background:#faf7fd}
+.gain-stage+.gain-stage{margin-top:12px}
+.gain-stage-heading{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.gain-stage-heading h6{margin:0;font-size:12px;line-height:1.4;font-weight:800;color:#7c6093}
+.gain-stage-heading>span{font-size:8px;font-weight:650;line-height:1.5;color:#927ba3}
+.gain-stage-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:13px}
+.gain-stage-metrics>div>span{display:block;font-size:9px;color:#8a7b96;line-height:1.5}
+.gain-stage-metrics strong{display:block;font-size:26px;letter-spacing:-1px;font-weight:750;line-height:1.3;color:#967bac;font-variant-numeric:tabular-nums;margin-top:4px;white-space:nowrap}
+.gain-stage-metrics strong small{font-size:16px;letter-spacing:0;margin-left:1px}
+.gain-full{border-color:#e1d4ee;background:#eee5f7}
+.gain-full .gain-stage-heading h6,.gain-full .gain-stage-metrics strong{color:var(--purple)}
+.gain-full .gain-stage-heading>span{color:var(--purple);background:#ffffffa8;border-radius:3px;padding:2px 5px}
+.effect-details{border-bottom:1px solid var(--line);margin-top:14px}
+.effect-details>summary{font-size:12px;color:#7a648d}
+.effect-details .table-wrap{margin-top:0;margin-bottom:20px}
+.task-stage-table thead th{padding:11px 10px;text-align:center}
+.task-stage-table thead th[rowspan]{text-align:left;vertical-align:middle}
+.task-stage-table thead th[colspan]{border-bottom:1px solid #dfd4e9;font-size:11px}
+.task-stage-table thead tr:last-child th{font-size:9px;font-weight:600;color:#94839f}
+.task-stage-table tbody td,.task-stage-table tbody th{padding:13px 10px}
+.task-stage-table tbody td:nth-child(2){text-align:left}
+.effectiveness-block .result-support{margin-top:35px}
+@media(max-width:1000px){
+  .backbone-grid{gap:12px}.backbone-card{padding:21px 12px 17px}
+  .backbone-heading h5{font-size:13px}.backbone-heading>span{font-size:8px}
+  .stage-comparison tbody th{font-size:10px}.stage-comparison tbody td{font-size:16px;padding-inline:5px}
+  .stage-comparison thead th{font-size:8px;padding-inline:5px}
+  .stage-checkpoint{width:16px;height:16px;margin-right:4px;font-size:8px}
+  .stage-comparison tbody th>span:last-child{max-width:calc(100% - 24px)}
+  .stage-comparison tbody th small{font-size:7px}
+  .gain-stage{padding:13px 10px}.gain-stage-metrics{gap:8px}
+  .gain-stage-metrics strong{font-size:20px}.gain-stage-metrics strong small{font-size:13px}
+}
+@media(max-width:760px){
+  .results-block-heading{gap:13px;flex-wrap:wrap;margin-bottom:23px}
+  .result-part{width:31px;height:31px;border-radius:8px;font-size:10px}
+  .results-block-heading .small-label{font-size:8px;letter-spacing:1.1px;margin-bottom:9px}
+  .results-block-heading h3{font-size:24px;letter-spacing:-.8px;line-height:1.3}
+  .results-block-heading p:last-child{font-size:12px;margin-top:11px}
+  .capability-size{padding-top:0;margin-left:44px;display:flex;align-items:baseline;gap:9px;text-align:left}
+  .capability-size strong{font-size:23px}.capability-size span{font-size:10px}
+  .capability-block{margin-bottom:36px;padding-bottom:33px}
+  .effectiveness-switch{padding-left:0;gap:24px;margin-bottom:23px}
+  .effectiveness-switch button{font-size:11px}
+  .effect-finding{align-items:flex-start;gap:15px}
+  .effect-finding h4{font-size:16px;line-height:1.5;letter-spacing:-.3px}
+  .effect-finding p{font-size:11px}.effect-badge{font-size:24px}
+  .effect-badge>span{font-size:8px;max-width:105px}
+  .backbone-grid{grid-template-columns:1fr;gap:16px}
+  .backbone-card{padding:22px 18px}
+  .backbone-heading{margin-bottom:20px}.backbone-heading h5{font-size:16px}.backbone-heading>span{font-size:10px}
+  .stage-comparison tbody th{font-size:11px}.stage-comparison tbody td{font-size:20px;padding:14px 7px}
+  .stage-comparison thead th{font-size:9px;padding-inline:7px}.stage-comparison thead th span{font-size:8px}
+  .stage-comparison tbody th small{font-size:8px}
+  .stage-checkpoint{width:19px;height:19px;margin-right:5px;font-size:9px}
+  .stage-comparison tbody th>span:last-child{max-width:calc(100% - 28px)}
+  .gain-stage{padding:16px 14px}.gain-stage-heading h6{font-size:13px}.gain-stage-heading>span{font-size:9px}
+  .gain-stage-metrics{gap:14px;margin-top:14px}.gain-stage-metrics>div>span{font-size:10px}
+  .gain-stage-metrics strong{font-size:clamp(20px,6.8vw,27px)}.gain-stage-metrics strong small{font-size:16px}
+  .stage-outcome>span{font-size:11px}.stage-outcome p{font-size:10px}
+  .effect-details>summary{font-size:11px}
+}
