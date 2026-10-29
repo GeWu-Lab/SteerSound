@@ -1,0 +1,63 @@
+{
+  "parquet_path": "data/train_with_timing_label_refined_clap_gt_0p1.parquet",
+  "audio_base_path": "data/raw_audio",
+  "long_prompt_csv_path": "data/long_prompt_merged.csv",
+  "long_prompt_audio_base_path": "data/long_prompt_audio",
+  "long_prompt_prob": 1.0,
+  "long_prompt_tasks": [
+    0,
+    2
+  ],
+  "required_long_prompt_tasks": [
+    0,
+    2,
+    3
+  ],
+  "duration": 10.0,
+  "task_specific": null,
+  "task_probs": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "specific_time": "No",
+  "base_audio_num_probs": [
+    7.0,
+    2.0,
+    1.0
+  ],
+  "specific_time_probs": [
+    0.3,
+    0.3,
+    0.4
+  ],
+  "condition_type_probs": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "use_base_prob": 0.9,
+  "pitch_fake_prob": 0.3,
+  "volume_fake_prob": 0.5,
+  "read_pitch_range": 2.0,
+  "read_pitch_step_quantization": 0.5,
+  "pitch_shift_cache_size": 8,
+  "pitch_shift_prewarm": true,
+  "pitch_shift_warmup_threads": 4,
+  "read_pitch_shift_threads": 4,
+  "read_pitch_shift_max_seconds": 12.0,
+  "read_volume_range": 2.0,
+  "edit_volume_range": 5.0,
+  "edit_pitch_range": 4.0,
+  "edit_pitch_step_quantization": 0.5,
+  "edit_pitch_shift_cache_size": 16,
+  "edit_pitch_shift_threads": 4,
+  "label_dict_path": "data/label_dict.pt",
+  "processor_max_length": 128,
+  "verbose_errors": false,
+  "verify_io": false,
+  "audit_provenance": true
+}
