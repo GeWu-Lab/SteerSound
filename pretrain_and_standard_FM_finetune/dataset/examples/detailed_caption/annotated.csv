@@ -1,0 +1,4 @@
+path,caption,duration,point_audio,piece_audio
+audio/00_RKeaton_EMF366_8_Running_Water_in_Small_Porcelain_Sink.flac,A person pours liquid from a container into another body of water,19.5090625,"[(241200, 10000), (251600, 14000)]","[(176800, 16800), (194000, 27200), (222000, 16400)]"
+audio/01_20110220_churchbell.flac,A bell is ringing loudly again and again while people are talking in the background.,17.751625,"[(80000, 14800), (240000, 15200)]","[(0, 20000), (160000, 19200)]"
+audio/02_Greek_Chat2.flac,A large group of people are having several conversations in the background.,17.1610625,"[(79200, 10400), (193200, 11200)]","[(166400, 17200)]"
