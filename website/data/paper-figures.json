@@ -1,0 +1,95 @@
+{
+  "manuscript": "iclr2027_conference.tex",
+  "figures": [
+    {
+      "name": "overview",
+      "label": "figure1",
+      "source": "figures/figure200.pdf",
+      "sourceSha256": "528f9afdf007f44d776f056050dd6e6d887b81f57c2473c62b03b839132bab6d",
+      "asset": "assets/figures/overview.webp",
+      "assetSha256": "8fb02a6a1a60d45b7c427b9f46af28533eb95316f79874b434008b058909596a",
+      "width": 2800,
+      "height": 895
+    },
+    {
+      "name": "early-selection",
+      "label": "figure2",
+      "source": "figures/figure103.pdf",
+      "sourceSha256": "cec26500948a02d3750d6363e5f5bdf268fdd171ef2fb1700a4d4f4e91a36fb3",
+      "asset": "assets/figures/early-selection.webp",
+      "assetSha256": "8023b7b7bc552842496e323a86539bcd9422970dddbb75b840de85988b0fdc4e",
+      "width": 2800,
+      "height": 918
+    },
+    {
+      "name": "interventions",
+      "label": "figure3",
+      "source": "figures/figure102.pdf",
+      "sourceSha256": "00db9808ff4af9a1e5292cb069935ea67a69c6040cf61dcecd4c031ca3517ba7",
+      "asset": "assets/figures/interventions.webp",
+      "assetSha256": "cfdae343265db9e7796cdbf34c1c24d85a00716e0ad1ebc6eda24559be1bacff",
+      "width": 2800,
+      "height": 990
+    },
+    {
+      "name": "emphasis",
+      "label": "figure4",
+      "source": "figures/figure53.pdf",
+      "sourceSha256": "6e4c606ba578e44bf614bcd2e502249d177b9d7c3100bcc26bfa0b8fd9d84736",
+      "asset": "assets/figures/emphasis.webp",
+      "assetSha256": "c009ae410a1adb2066fd11c6457780faa4942f2c47ded9bb2336099f2dc75b31",
+      "width": 2800,
+      "height": 814
+    },
+    {
+      "name": "recovery",
+      "label": "fig:ter_supervision",
+      "source": "figures/figure71.pdf",
+      "sourceSha256": "90f04b54d56fdc889619261dd971c99ee7112fbdeefc6ed0ff8bd0ec28591ad9",
+      "asset": "assets/figures/recovery.webp",
+      "assetSha256": "8bb7e249d55bc2aa51da9941c70919b03b57d7c03d3f6242c0eee8607b25a342",
+      "width": 2800,
+      "height": 1613
+    },
+    {
+      "name": "architecture",
+      "label": "figure6",
+      "source": "figures/figure72.pdf",
+      "sourceSha256": "471f3c6593aa4f9b5119a8889de7c3f572a08455ac658bf6dd62854a3511d450",
+      "asset": "assets/figures/architecture.webp",
+      "assetSha256": "1219715201e0dcfe731d6dd844889cb453e4e2b29b0021ac66b1c4dbcc5eb3ae",
+      "width": 2399,
+      "height": 2800
+    },
+    {
+      "name": "data",
+      "label": "figure7",
+      "source": "figures/figure54.pdf",
+      "sourceSha256": "ecb7930d12d11a72da17d504235fa5d9465f94e1f9659c811eb4f1230cf3cc2f",
+      "asset": "assets/figures/data.webp",
+      "assetSha256": "2bca0afc57822ab80ea4d39d54a2d2d78fbe5d4d9e85a25e9b5b87cc04877aa0",
+      "width": 2800,
+      "height": 1044
+    },
+    {
+      "name": "robustness",
+      "label": "figure8",
+      "source": "figures/figure503.pdf",
+      "sourceSha256": "18ee4483a034cfda336c968a05651faae9b600459fd4812c1af5f9d750a83018",
+      "asset": "assets/figures/robustness.webp",
+      "assetSha256": "787110093bdd251c8931e4d1af94f9cc06da5bc0475bd17abc0992d9ea48d221",
+      "width": 2800,
+      "height": 1001
+    },
+    {
+      "name": "human-evaluation",
+      "label": "figure9",
+      "source": "figures/figure501.pdf",
+      "sourceSha256": "9d1e5bae35fb9948b10098b70c3403b84c031919ebceb4576e48696576a3b933",
+      "asset": "assets/figures/human-evaluation.webp",
+      "assetSha256": "17c7cb8a34edaaadc34880604a32a0380237d4602debaa7366cd0ff27a1c50c9",
+      "width": 2800,
+      "height": 978
+    }
+  ]
+}

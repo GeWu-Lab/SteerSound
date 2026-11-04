@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.cache/
+.venv/
+.env
+output/
+outputs/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.wav
+!website/assets/audio/*.wav
+*.zip

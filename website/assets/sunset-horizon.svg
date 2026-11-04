@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="220" viewBox="0 0 1240 220" fill="none">
+  <defs>
+    <radialGradient id="glow">
+      <stop stop-color="#F8BBAC" stop-opacity=".34"/>
+      <stop offset=".5" stop-color="#F2D6E0" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#F8F4FB" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="620" y1="55" x2="620" y2="158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD3A0"/>
+      <stop offset=".48" stop-color="#F8AFA4"/>
+      <stop offset="1" stop-color="#B99AD7"/>
+    </linearGradient>
+    <linearGradient id="horizon" x1="80" y1="128" x2="1160" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8B8DD" stop-opacity="0"/>
+      <stop offset=".28" stop-color="#C8B8DD" stop-opacity=".42"/>
+      <stop offset=".5" stop-color="#B69BCC" stop-opacity=".66"/>
+      <stop offset=".72" stop-color="#C8B8DD" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#C8B8DD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="reflection" x1="620" y1="133" x2="620" y2="197" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2B7AB" stop-opacity=".68"/>
+      <stop offset=".6" stop-color="#C4AAD9" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#C4AAD9" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="above-horizon"><path d="M0 0h1240v128H0z"/></clipPath>
+  </defs>
+  <ellipse cx="620" cy="120" rx="340" ry="105" fill="url(#glow)"/>
+  <g clip-path="url(#above-horizon)">
+    <circle cx="620" cy="108" r="50" fill="url(#sun)"/>
+  </g>
+  <path d="M80 128h1080" stroke="url(#horizon)" stroke-width="1.2"/>
+  <path d="M568 138q52-5 104 0M582 148q38-4 76 0M558 158q62-5 124 0M588 169q32-3 64 0M576 180q44-3 88 0M600 192q20-2 40 0" stroke="url(#reflection)" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M336 145q48-3 96 0M804 146q48-3 96 0M440 167q25-2 50 0M750 169q25-2 50 0" stroke="#BFAED3" stroke-opacity=".12" stroke-width="1" stroke-linecap="round"/>
+</svg>

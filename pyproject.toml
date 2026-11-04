@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steersound"
+version = "0.1.0"
+description = "Instruction-based audio editing with STEER"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "inference"}
+
+[tool.setuptools.packages.find]
+where = ["inference"]
+include = ["steersound*"]
