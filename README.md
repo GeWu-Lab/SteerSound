@@ -2,7 +2,7 @@
 
 # Steer Unified Audio Editing Toward Reliable Source Selection
 
-[![Paper](https://img.shields.io/badge/Paper-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](./assets/STEER.pdf) [![Project Page](https://img.shields.io/badge/Project-Page-2563EB?style=flat-square&logo=googlechrome&logoColor=white)](https://gewu-lab.github.io/SteerSound/) [![GitHub Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeWu-Lab/SteerSound) [![Hugging Face Weights](https://img.shields.io/badge/Hugging_Face-Weights-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/GeWu-Lab/SteerSound) [![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-FF9D00?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/GeWu-Lab/SteerSound)
+[![Paper](https://img.shields.io/badge/Paper-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.10630) [![Project Page](https://img.shields.io/badge/Project-Page-2563EB?style=flat-square&logo=googlechrome&logoColor=white)](https://gewu-lab.github.io/SteerSound/) [![GitHub Code](https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeWu-Lab/SteerSound) [![Hugging Face Weights](https://img.shields.io/badge/Hugging_Face-Weights-FFD21E?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/GeWu-Lab/SteerSound) [![Hugging Face Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-FF9D00?style=flat-square&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/GeWu-Lab/SteerSound)
 
 </div>
 
