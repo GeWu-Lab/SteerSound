@@ -52,7 +52,7 @@ This extracts the original JPEG spectrograms intact from Figure 7's PDF and crea
 
 Visible counts use a consistent compact k/M notation (for example 61k and 6k). Preserve exact integer values in the manifest; the generator retains exact counts in native tooltips while keeping the page and exported figure concise.
 
-The hero and bottom resource section use the concise label “Paper” and link to `https://github.com/GeWu-Lab/SteerSound/blob/main/assets/STEER.pdf`. The resource section uses five matching cards; do not restore a separate full-width paper strip or PDF/Coming Soon labels. A local copy remains at `website/assets/STEER.pdf` and should match `assets/STEER.pdf` on `main`. Do not invent a conference, DOI, arXiv number, or BibTeX entry.
+The hero and bottom resource section use the label “Paper” and link to [the arXiv record](https://arxiv.org/abs/2611.10630). The resource section uses five matching cards. Keep publication details consistent with the arXiv record.
 
 Stage names in webpage prose and generated result tables are `STEER-Emphasis` and `STEER-Recovery`. The formal STEER acronym expansion remains unchanged. Images must use the original figures referenced by the current manuscript, including their original labels; do not overlay or rewrite image text.
 
